@@ -1,7 +1,23 @@
 aid: zoog
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zoog.png
 name: Zoog
-description: Zoog is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Zoog is a consumer mobile app platform that lets families create and share
+  personalized video books and songs for children. Users read classic kids' stories
+  or sing popular kids' songs while the app adds filters, effects, and music to produce
+  custom animated videos that connect loved ones across distances. Founded in 2021
+  by Yoav Oren and Matan Guttman and backed by Techstars, Zoog is used by families
+  worldwide. It is a consumer product with no public developer API surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/zoog/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +27,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Children
+- Education
+- Family
+- Video
+- Storytelling
+- Mobile App
+- Entertainment
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +46,20 @@ maintainers:
 common:
 - type: Website
   url: https://getzoog.com/
+- type: Blog
+  url: https://getzoog.com/blog
+- type: Pricing
+  url: https://getzoog.com/pricing
+- type: Support
+  url: https://getzoog.com/faq
+- type: TermsOfService
+  url: https://getzoog.com/terms-conditions
+- type: PrivacyPolicy
+  url: https://getzoog.com/privacy-policy
+- type: DomainSecurity
+  url: security/zoog-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
